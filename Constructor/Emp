@@ -1,0 +1,29 @@
+package com.cts.vms.constructor;
+
+public class Emp {
+
+	int empno;
+	String ename;
+	int sal;
+	String type;
+	
+	Emp()
+	{
+		empno=10;
+		ename="abc";
+		sal=5000;
+		type="permanent";
+	}
+	
+	Emp(int empno,String ename,int sal,String type)
+	{
+		this.empno=empno;
+		this.ename=ename;
+		this.sal=sal;
+		this.type=type;
+	}
+	void display()
+	{
+		System.out.println("emp name is "+ename+" sal is "+sal);
+	}
+}

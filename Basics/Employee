@@ -1,0 +1,19 @@
+package com.bigacademe.handsforjava.basics;
+
+public class Employee {
+
+	int empno;
+	String ename;
+	int sal;
+	
+	void displayInfo()
+	{
+		System.out.println(empno+" "+ename+" "+sal);
+	}
+	
+	static void displayOfficeAddress()
+	{
+		System.out.println("47000 apt 134");
+	}
+	
+}

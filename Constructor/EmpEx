@@ -1,0 +1,14 @@
+package com.cts.vms.constructor;
+
+public class ExEmp {
+
+	public static void main(String[] args) {
+		Emp e1 = new Emp(101,"Sai",60000,"permanent");
+		Emp e2 = new Emp();
+		
+		e1.display();
+		e2.display();
+
+	}
+
+}

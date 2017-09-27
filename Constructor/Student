@@ -1,0 +1,26 @@
+package com.cts.vms.constructor;
+
+public class Student {
+
+	int stdno;
+	String stdname;
+	int m1,m2,m3;
+	void displayStdDetails()
+	{
+		System.out.println(stdno +" " +stdname);
+	}
+	void displayStdPermance()
+	{
+		System.out.println(m1);
+		System.out.println(m2);
+		System.out.println(m3);
+		
+		avg=((m1+m2+m3)/3);
+		System.out.println(avg);
+		
+	}
+	Static void displaySchoolAddress()
+	{
+		System.out.println("47000 taft blblbllb");
+	}
+}

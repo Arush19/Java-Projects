@@ -1,0 +1,17 @@
+package com.bigacademe.handsforjava.Inheritance;
+
+public class Person {
+	String fname;
+	String lname;
+	
+	Person(String fname,String lname) 
+	{
+		this.fname=fname;
+		this.lname=lname;
+	}
+	public void displayNames()
+	{
+		System.out.println(fname+""+lname);
+	}
+
+}

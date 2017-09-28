@@ -1,0 +1,21 @@
+package com.bigacademe.handsforjava.Inheritance;
+
+public class Trainer extends Person {
+
+	String subject;
+	int Salary;
+	int type;
+	
+	Trainer(String fname,String lname,String subject,int Salary,int type)
+	{
+		super(fname,lname);
+		this.subject=subject;
+		this.Salary=Salary;
+		this.type=type;
+	}
+	public void displayStdDetails()
+	{
+		System.out.println(subject+"  "+Salary+"  "+type);
+	}
+
+}

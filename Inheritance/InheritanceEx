@@ -1,0 +1,16 @@
+package com.bigacademe.handsforjava.Inheritance;
+
+public class InheritanceEx {
+
+	public static void main(String[] args) {
+		Student s1=new Student("abc","xyz",12,"54545");
+		s1.displayNames();
+		s1.displayStdDetails();
+		
+	Trainer T1=new Trainer("abc", "hghgjh", "math", 5000, 3);
+	T1.displayNames();
+	T1.displayStdDetails();
+		
+	}
+
+}

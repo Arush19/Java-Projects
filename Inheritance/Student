@@ -1,0 +1,19 @@
+package com.bigacademe.handsforjava.Inheritance;
+
+public class Student extends Person {
+	int stdno;
+	String stdadd;
+	
+	Student(String fname,String lname,int stdno,String stdadd)
+	{
+		super(fname,lname);
+		this.stdno=stdno;
+		this.stdadd=stdadd;
+	}
+	public void displayStdDetails()
+	{
+		System.out.println(stdno+""+stdadd);
+	}
+
+
+}
